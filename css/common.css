@@ -51,7 +51,7 @@ li {
     text-align: center;
     height: 700px;
     background-image: url(../img/top.jpg);
-    background-size: cover
+    background-size: cover;
 }
 
 .top_title {
@@ -110,9 +110,11 @@ background-color: #f7f7f7;
 
 .about_img {
     display: block;
-    width: 30%;
-    margin: 0 auto 30px;
-    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: auto;
+    margin-bottom: 20px;
     box-shadow: 0 0 50px 0 #d9d9d9;
 }
 
@@ -127,6 +129,8 @@ background-color: #f7f7f7;
 
 .skill_img img {
     width: 60px;
+    height: 60px;
+    object-fit: cover;
 }
 
 .work_all {
